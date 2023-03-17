@@ -1,6 +1,6 @@
 {
     "name": "@taskli-st/eslint-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Eslint configuration for our projects",
     "license": "MIT",
     "repository": "taskli-st/eslint-config",
