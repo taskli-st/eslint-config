@@ -1,0 +1,31 @@
+{
+    "name": "@taskli-st/eslint-config",
+    "version": "1.0.8",
+    "description": "Eslint configuration for our projects",
+    "license": "MIT",
+    "repository": "taskli-st/eslint-config",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "node ./post-install.js"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "files": [
+        "index.js",
+        ".eslintignore",
+        ".eslintrc.js",
+        "post-install.js"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "peerDependencies": {
+        "eslint": ">= 3",
+        "@typescript-eslint/eslint-plugin": ">= 5"
+    }
+}
